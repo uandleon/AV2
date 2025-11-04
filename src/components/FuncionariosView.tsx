@@ -165,22 +165,6 @@ export function FuncionariosView() {
               <Input id="role" placeholder="Ex: Engenheiro Aeronáutico" />
             </div>
             <div className="space-y-2">
-              <Label htmlFor="department">Departamento</Label>
-              <Select>
-                <SelectTrigger id="department">
-                  <SelectValue placeholder="Selecione o departamento" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="engenharia">Engenharia</SelectItem>
-                  <SelectItem value="producao">Produção</SelectItem>
-                  <SelectItem value="qualidade">Qualidade</SelectItem>
-                  <SelectItem value="testes">Testes</SelectItem>
-                  <SelectItem value="gestao">Gestão</SelectItem>
-                  <SelectItem value="manutencao">Manutenção</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
-            <div className="space-y-2">
               <Label htmlFor="email">E-mail</Label>
               <Input id="email" type="email" placeholder="email@aero.com" />
             </div>
